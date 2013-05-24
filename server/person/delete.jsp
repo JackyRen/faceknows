@@ -20,7 +20,6 @@ import=" com.facepp.result.FaceppResult"
 		out.println(result);
 		%>
 
-
 	</body>
 </html>
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Arch Linux) (format=xelatex 2013.5.7)  24 MAY 2013 12:03
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Arch Linux) (format=xelatex 2013.5.7)  24 MAY 2013 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,21 +923,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./server-doc-v1.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 4.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `server-doc-v1.toc'.
 
- [2] [3] (./server-doc-v1.aux) ) 
+ [2] [3] [4] [5] (./server-doc-v1.aux) ) 
 Here is how much of TeX's memory you used:
- 16403 strings out of 494004
- 368453 string characters out of 3155737
- 364566 words of memory out of 3000000
- 19480 multiletter control sequences out of 15000+200000
+ 16405 strings out of 494004
+ 368490 string characters out of 3155737
+ 365566 words of memory out of 3000000
+ 19482 multiletter control sequences out of 15000+200000
  6552 words of font info for 45 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,6n,41p,888b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,6n,41p,888b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on server-doc-v1.pdf (3 pages).
+Output written on server-doc-v1.pdf (5 pages).
