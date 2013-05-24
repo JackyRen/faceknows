@@ -10,13 +10,20 @@ import=" com.facepp.result.FaceppResult"
 <html>
 	<HEAD>
 		<title>
-			add Face
+			create person
 		</title>
 	</HEAD>
 	<body>
 		<% HttpRequests httpRequests = new HttpRequests("e10bc9924d794c0fbdda9be913ed42e6", "mjorfIe8yHRjQHEg_ko3NWCCj_sK5hyY"); 
+		PostParameters parameters = new PostParameters().setPersonName(request.getParameter("personid"));
+
+		if (request.getParameter("faceid")!=null) 
+		parameters.setFaceId(request.getParameter("faceid"));
+		if (request.getParameter("groupid")!=null)
+		parameters.setGroupName(request.getParameter("groupid"));
+		
 		FaceppResult result;
-		result =  httpRequests.personAddFace(new PostParameters().setPersonName(result.getParameter("personid")).setFaceId(request.getParameter("faceid")));
+		result = httpRequests.personCreate(parameters);
 		out.println(result);
 		%>
 
