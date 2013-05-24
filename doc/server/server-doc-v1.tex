@@ -1,0 +1,65 @@
+% tex file
+% AUTHOR:   rj
+% FILE:     /media/files/projects/faceknows/doc/server/server-doc-v1.tex
+% CREATED:  11:40:30 24/05/2013
+% MODIFIED: 12:03:27 24/05/2013
+\documentclass[a4paper]{article}
+\usepackage{ctex}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{mdwlist}
+
+
+\begin{document}
+\title{Server接口说明}
+\author{任杰}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{概述}
+这组JSP主要实现了对SDK的一些功能的封装
+\section{信息管理部分}
+\section{训练部分}
+\subsection{detectImage.jsp}
+\begin{itemize}
+	\item{\bf Input}
+		\begin{basedescript}{\desclabelstyle{\pushlabel}\desclabelwidth{6em}}
+		\item[url] 图片的url
+		\end{basedescript}
+	\item{\bf Output}
+		JSON格式的检测信息
+	\item{\bf description}
+		nothing
+\end{itemize}
+\subsection{addFace.jsp}
+\begin{itemize}
+	\item{\bf Input}
+		\begin{basedescript}{\desclabelstyle{\pushlabel}\desclabelwidth{6em}}
+		\item[faceid] 脸的id，face++系统给的
+		\item[personid] 我们内部的人的ID 
+		\end{basedescript}
+	\item{\bf Output}
+		nothing
+	\item{\bf description}
+		加入脸之后会对这个人所在的所有组train一遍
+\end{itemize}
+
+\section{检测部分}
+\subsection{identify.jsp}
+\begin{itemize}
+	\item{\bf Input}
+		\begin{basedescript}{\desclabelstyle{\pushlabel}\desclabelwidth{6em}}
+		\item[groupid] 我们内部的组的id
+		\item[url] 图片的url
+		\end{basedescript}
+	\item{\bf Output}
+		JSON格式的检测信息
+	\item{\bf description}
+		原计划中我要在这里对返回值简化，但写的过程中感觉有点麻烦，涉及对JSON数据的修改，face++的sdk只支持读取，要修改可能又要引入一些包，放到客户端做就只需要读取了。
+\end{itemize}
+
+
+\end{document}
+
+

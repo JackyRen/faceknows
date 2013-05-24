@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}概述}{3}
+\contentsline {section}{\numberline {2}信息管理部分}{3}
+\contentsline {section}{\numberline {3}训练部分}{3}
+\contentsline {subsection}{\numberline {3.1}detectImage.jsp}{3}
+\contentsline {subsection}{\numberline {3.2}addFace.jsp}{3}
+\contentsline {section}{\numberline {4}检测部分}{3}
+\contentsline {subsection}{\numberline {4.1}identify.jsp}{3}
